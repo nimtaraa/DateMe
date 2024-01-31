@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <script>
+        function  toggleFollow() {
+            var followbtn = document.getElementById("followbtn");
+            if (followbtn.innerText==="Follow"){
+                followbtn.innerText="Following";
+                followbtn.classList.remove("btn-outline-danger");
+                followbtn.classList.add("btn-danger")
+            } else{
+                followbtn.innerText="Follow";
+                followbtn.classList.remove("btn-danger");
+                followbtn.classList.add("btn-outline-danger");
+            }
+        }
+        function  toggleFollow1() {
+            var followbtn1 = document.getElementById("followbtn1");
+            if (followbtn1.innerText==="Follow"){
+                followbtn1.innerText="Following";
+                followbtn1.classList.remove("btn-outline-danger");
+                followbtn1.classList.add("btn-danger")
+            } else{
+                followbtn1.innerText="Follow";
+                followbtn1.classList.remove("btn-danger");
+                followbtn1.classList.add("btn-outline-danger");
+            }
+        }
+        function  toggleFollow2() {
+            var followbtn2= document.getElementById("followbtn2");
+            if (followbtn2.innerText==="Follow"){
+                followbtn2.innerText="Following";
+                followbtn2.classList.remove("btn-outline-danger");
+                followbtn2.classList.add("btn-danger")
+            } else{
+                followbtn2.innerText="Follow";
+                followbtn2.classList.remove("btn-danger");
+                followbtn2.classList.add("btn-outline-danger");
+            }
+        }
+        function  toggleFollow3() {
+            var followbtn3 = document.getElementById("followbtn3");
+            if (followbtn3.innerText==="Follow"){
+                followbtn3.innerText="Following";
+                followbtn3.classList.remove("btn-outline-danger");
+                followbtn3.classList.add("btn-danger")
+            } else{
+                followbtn3.innerText="Follow";
+                followbtn3.classList.remove("btn-danger");
+                followbtn3.classList.add("btn-outline-danger");
+            }
+        }
+    </script>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <nav id="nav" class="navbar navbar-expand-sm navbar-dark bg-dark me-1 fixed-top bg-dark">
+        <img src="white-3d-heart-free-png.webp" alt="heart" width="50" height="50">
+        <a href="" class="navbar-brand"><span class="text-warning display-6 ">Date</span>Me</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navitm"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse justify-content-center" id="navitm">
+            <ul class="navbar-nav ">
+                <li class="nav-item "><a href="" class="nav-link active">Home</a></li>
+                <li class="nav-item "><a href="" class="nav-link">Features</a></li>
+                <li class="nav-item "><a href="" class="nav-link">Upgrade to premium</a></li>
+                <li class="nav-item "><a href="" class="nav-link">Inbox</a></li>
+                <li class="nav-item ms-auto">
+                    <form class="d-flex " role="search" id="search-bar">
+                        <input class="form-control me-1 bg-transparent " type="search" placeholder="search">
+                        <button class="btn btn-outline-light" type="submit">search</button>
+                    </form>
+                </li>
+        <!-- </div>
+            </ul>
+            <div class="d-flex justify-content-start">
+               
+            </div> -->
+    </nav>
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Date me</h3>
+            <span>find your partner</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Consequatur laboriosam quas doloremque sequi officia ipsa et,
+                  iste tenetur perferendis voluptas sit, repudiandae repellat 
+                  voluptates minus earum ipsum molestiae numquam provident.</p>
+            <a href="#" class="btnhp">find now</a>
+        
+        </div>
+    </section>
+    <section id="about" class="about-section-padding custom-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img src="sandra.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12ps-lg-5 mt-md-5">
+                    <div class="about-text">
+                        <h2>Sandra Dazzel</h2>
+                        <p>Hey! 👋 I'm Sandra Dazzel, a 23-year-old software engineer. By day, I code cool stuff. By night, I'm into cozy reads, spontaneous adventures, and a good laugh. Seeking someone who loves tech and appreciates life's simple joys. Let's create our own love code! 💖✨<p></div>
+                        <button type="button" class="btn btn-outline-danger" id="followbtn" onclick="toggleFollow()">Follow</button>
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about1" class="about-section-padding custom-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img src="michelle.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12ps-lg-5 mt-md-5">
+                    <div class="about-text">
+                        <h2> Michelle Marval</h2>
+                        <p>Hello! 🌟 I'm Michelle Marvel, 20, diving into psychology studies. Daytime mind explorer, nighttime lover of life's magic. looking for someone who values meaningful chats and laughter. Let's uncover life's wonders together! 💫✨.<p></div>
+                        <button type="button" class="btn btn-outline-danger" id="followbtn1" onclick="toggleFollow1()">Follow</button>
+                        
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section id="about2" class="about-section-padding custom-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img src="nathaliya.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12ps-lg-5 mt-md-5">
+                    <div class="about-text">
+                        <h2>Nathaliya Davis</h2>
+                        <p>Nathaliya Davis, 25, a graphic designer, where creativity meets romance. In my world, love is a masterpiece waiting to unfold, and I'm seeking a partner to share the brushstrokes of a beautiful journey. 💖✨<p></div>
+                        <button type="button" class="btn btn-outline-danger" id="followbtn2" onclick="toggleFollow2()">Follow</button>
+                        
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <section id="about3" class="about-section-padding custom-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="about-img">
+                        <img src="davina.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12ps-lg-5 mt-md-5">
+                    <div class="about-text">
+                        <h2>Davina Williams</h2>
+                        <p>Davina Williams, 28, balancing corporate life by day and embracing adventure by night. I find joy in spontaneous moments, road trips, and deep conversations. Seeking a companion to share laughter, explore, and create lasting memories together. 🌟🚗✨<p></div>
+                        <button type="button" class="btn btn-outline-danger" id="followbtn3" onclick="toggleFollow3()">Follow</button>    
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="col-md-6 text-end">
+    <button class="btn btn-outline-dark">See more >></button>
+    </div>
+    <section id="feedback" class="feedback section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-header text-center pb-5">
+                        <h2> Your Thought</h2>
+                        <p>Read what our user's experiences</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-12 col-md-12 col-md-4">
+            <div id="carousell" class="carousel slide" data-bs-target="#carousell">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carousell" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carousell" data-bs-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="single-box">
+                                    <div class="img-area"><img src="young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg" alt=""></div>
+                                        <div class="img-text">
+                                            <h2>bjdbj</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur sequi vero, facere inventore ducimus totam cum quos corrupti nihil reiciendis quidem fuga fugit porro, et neque reprehenderit ut nobis itaque.</p>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="single-box">
+                                    <div class="img-area"><img src="portrait-beautiful-face-young-woman-with-long-brown-hair.jpg" alt=""></div>
+                                        <div class="img-text">
+                                            <h2>bjdbjfgf</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur sequi vero, facere inventore ducimus totam cum quos corrupti nihil reiciendis quidem fuga fugit porro, et neque reprehenderit ut nobis itaque.</p>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="single-box">
+                                    <div class="img-area"><img src="young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg" alt=""></div>
+                                        <div class="img-text">
+                                            <h2>bjdbjjh</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur sequi vero, facere inventore ducimus totam cum quos corrupti nihil reiciendis quidem fuga fugit porro, et neque reprehenderit ut nobis itaque.</p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="single-box">
+                                    <div class="img-area"><img src="young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg" alt=""></div>
+                                        <div class="img-text">
+                                            <h2>bjdbj1</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur sequi vero, facere inventore ducimus totam cum quos corrupti nihil reiciendis quidem fuga fugit porro, et neque reprehenderit ut nobis itaque.</p>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="single-box">
+                                    <div class="img-area"><img src="young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg" alt=""></div>
+                                        <div class="img-text">
+                                            <h2>bjdbjfgf2</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur sequi vero, facere inventore ducimus totam cum quos corrupti nihil reiciendis quidem fuga fugit porro, et neque reprehenderit ut nobis itaque.</p>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="single-box">
+                                    <div class="img-area"><img src="young-cute-woman-cap-glasses-posing-outside-showing-thumbs-up-high-quality-photo.jpg" alt=""></div>
+                                        <div class="img-text">
+                                            <h2>bjdbjjh3</h2>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur sequi vero, facere inventore ducimus totam cum quos corrupti nihil reiciendis quidem fuga fugit porro, et neque reprehenderit ut nobis itaque.</p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+   
+    <footer class="footer1">
+        <div class="container">
+            <ul class="u1 d-flex justify-content-between">
+                <div class="legaldiv">
+                    <li class="l1">
+                        <h2>Legal</h2>
+                            <ul class="legaltab">
+                                <li>privacy</li>
+                                <li>terms</li>
+                                <li>cookie policy </li>
+                                <li>Intellectual property </li>
+                            </ul>
+                    </li> 
+                </div>
+                
+                <div class="socialdiv">
+                    <li class="l2">
+                        <h2>Social </h2>
+                            <ul class="socialtab ">
+                                <div class="socials">
+                                    <li><a href="www.facebook.com"> <i class="fa-brands fa-facebook"> </i></a></li>
+                                    <li><a href=""> <i class="fa-brands fa-google-plus"> </i> </a></li>
+                                    <li><a href=""> <i class="fa-brands fa-instagram"> </i ></a></li>
+                                    <li><a href=""> <i class="fa-brands fa-whatsapp"> </i ></a></li>
+                                    <li><a href=""> <i class="fa-brands fa-twitter"> </i ></a></li>
+                                </div>
+                            </ul>
+                    </li>   
+                </div>
+                <div class="contactusdiv">
+                    <li class="l3">
+                        <h2>Contact Us</h2>
+                            <div class="contactclass">
+                                <ul class="contacttab">
+                                    <li><i class="fa fa-phone" aria-hidden="true"></i>  01112222333</li>
+                                    <li><i class="fa fa-globe" aria-hidden="true"></i>  Head office New york</li> 
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i> abcABC@gmail.com</li>
+                                 </ul>
+                            </div>
+                    </li>
+                </div>  
+                
+            </ul>
+        </div>
+        <hr>
+        
+        <div class="bottompart">
+            <div class="bottomf">
+                <p>
+                    Single people, listen up: If you are looking for love, want to start dating, or just keep it casual, you need to be on DateMe!. With over thousands of matches to be made,it is most likely the place for your solitary heart for a triumph.Let’s be real, the dating landscape looks very different today, as most people are meeting online. With DateMe!, a prominent free dating site, you have millions of other single people at your fingertips and they’re all waiting for you to take the initiative. So,check out whats happening around at your convinience,with our newly implemented mobile app.
+
+                </p>
+                <p>
+                    There really is something for everyone on DateMe!.You will be more comfortable with us than on any other site. Want to get into a relationship? You got it. Trying to find some new friends? Say no more. New kid on campus and looking to make the most of your college experience? We got you covered. This isn’t your average dating site — it’s the most diverse dating app, where adults of all backgrounds and experiences are invited to make connections, memories, and everything in between.
+                </p>
+        </div>
+            <div class="footerbottom">
+                <p>
+                    Get it on GooglePlay
+                </p>
+                <p>
+                    Download it on AppStore
+                </p>
+            </div>
+        </div>
+        <div class="lastdiv">
+            <p> All rights reserved &copy <span>by Group No:06 </p>
+        </div>
+    </footer>
+</body>
+</html>
